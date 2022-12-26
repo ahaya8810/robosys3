@@ -33,7 +33,7 @@ aiZAwaHayaTo　　 //標準入力
 ### 実行例2
 ```
 $ ./conversion < sentence
-変換後:gOLD　rOGER, tHE "tHE KING OF THE PIRATES," HAD ACHIEVED IT ALL.
+変換後:gOLD　rOGER, tHE 'tHE KING OF THE PIRATES,' HAD ACHIEVED IT ALL.
 文字数:63
 ```
 ### 必要なソフトウェア
