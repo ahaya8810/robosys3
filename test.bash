@@ -3,20 +3,20 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
-	echo NG at Line $1
-		res=1
+		echo NG at Line $1
+			res=1
 }
 
 res=0
 
-###l/O TEST###
+### l/O TEST ###
 out=$(./conversion < sentence)
-["${out}"="変換後:gOLD　rOGER, tHE 'tHE KING OF THE PIRATES,' HAD ACHIEVED IT ALL.wEALTH, FAME AND POWER HAD ALL BEEN HIS.
+[ "${out}"="変換後:gOLD　rOGER, tHE 'tHE KING OF THE PIRATES,' HAD ACHIEVED IT ALL.wEALTH, FAME AND POWER HAD ALL BEEN HIS.
 文字数:86
 空白の数:17"] || ng $LINENO
 
 ### STRANGE INPUT ###
-out=$(cat 1 |./conversion)
+out=$(cat 1 | ./conversion)
 [ "$?" = 1 ]      || ng $LINENO
 [ "${out}" = "" ] || ng $LINENO
 
