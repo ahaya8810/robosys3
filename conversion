@@ -2,9 +2,9 @@
 # SPDX-FileCopyrightText:2022 Hayato Aizawa
 # SPDX-License-Identifier: BSD-3-Clause
 s = input()
- 
 print( "変換後:" + s.swapcase())
 Num = len(s)
+Num2 = s.count(' ')
 print( "文字数:" + str(Num))
-
+print( "空白の数:" + str(Num2))
 
