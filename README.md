@@ -1,6 +1,6 @@
 # robosys3
 
-[![test](https://github.com/ahaya8810/robosys3/actions/workflows/test.yml/badge.svg)]
+![test](https://github.com/ahaya8810/robosys3/actions/workflows/test.yml/badge.svg)
 
 ロボットシステム学の課題３リポジトリ
 
