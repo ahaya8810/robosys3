@@ -11,14 +11,18 @@
 
 ## インストール方法等
 ```
-git clone https://github.com/ahaya8810/robosys3.git
+$ git clone https://github.com/ahaya8810/robosys3.git
 ```
 
 ### 実行方法の例
 ```
 $ ./conversion
 ```
-
+を入力し、実行後に任意の文字列を入力する
+```
+$ ./conversion < sentence
+```
+sentenceに入っている文字列を変換する
 ### 起動例
 ```
 $ ./conversion
