@@ -7,7 +7,7 @@
 
 ### 機能
 
-標準入力から読み込んだアルファベットの文字列の大文字は小文字に、小文字は大文字に変換し、その後、空白を除いた文字数を表示する。
+標準入力から読み込んだアルファベットの文字列の大文字は小文字に、小文字は大文字に変換した文字列を表示した後、空白を除いた文字数を表示し、空白の数も表示する。
 
 ## インストール方法等
 ```
@@ -35,9 +35,10 @@ aiZAwaHayaTo　　 //標準入力
 $ ./conversion < sentence
 変換後:gOLD　rOGER, tHE 'tHE KING OF THE PIRATES,' HAD ACHIEVED IT ALL.wEALTH, FAME AND POWER HAD ALL BEEN HIS.
 文字数:86
+空白の数:17
 ```
 ### 必要なソフトウェア
-* Python 3
+* Python 3.7～3.10 
 
 ### テスト環境
 * Ubuntu 22.04.1 LTS
