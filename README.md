@@ -29,6 +29,7 @@ $ ./conversion
 aiZAwaHayaTo　　 //標準入力
 変換後:AIzaWAhAYAtO
 文字数:12
+空白の数:0
 ```
 ### 実行例2
 ```
