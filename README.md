@@ -23,13 +23,14 @@ $ ./conversion
 $ ./conversion < sentence
 ```
 sentenceに入っている文字列を変換する
-### 起動例
+### 起動例1
 ```
 $ ./conversion
 aiZAwaHayaTo　　 //標準入力
 変換後:AIzaWAhAYAtO
 文字数:12
 ```
+### 実行例2
 ```
 $ ./conversion < sentence
 変換後:gOLD　rOGER, tHE "tHE KING OF THE PIRATES," HAD ACHIEVED IT ALL.
