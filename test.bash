@@ -12,7 +12,8 @@ res=0
 ###l/O TEST###
 out=$(./conversion < sentence)
 ["${out}"="変換後:gOLD　rOGER, tHE 'tHE KING OF THE PIRATES,' HAD ACHIEVED IT ALL.wEALTH, FAME AND POWER HAD ALL BEEN HIS.
-文字数:103"]||ng $LINENO
+文字数:86
+空白の数:17"] || ng $LINENO
 
 ### STRANGE INPUT ###
 out=$(cat 1 |./conversion)

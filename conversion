@@ -6,4 +6,5 @@ print( "変換後:" + s.swapcase())
 Num = len(s)
 Num2 = s.count(' ')
 print( "文字数:" + str(Num - Num2))
+print( "空白の数:" + str(Num2))
 
