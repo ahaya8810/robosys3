@@ -20,11 +20,11 @@ $ git clone https://github.com/ahaya8810/robosys3.git
 ```
 $ ./conversion
 ```
-を入力し、実行後に任意の文字列を入力する
+を入力し、実行後に任意の文字列を入力する。
 ```
 $ ./conversion < sentence
 ```
-sentenceに入っている文字列を変換する
+sentenceに任意の文字列を入力し文字列を変換することもできる。
 ### 起動例1
 ```
 $ ./conversion
